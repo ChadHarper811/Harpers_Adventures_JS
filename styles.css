@@ -1,0 +1,208 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-orange: #994500;
+    --main-blue: #153d6b;
+    --main-gray: #38444d;
+}
+
+#mainHeading {
+  color:red;
+}
+
+.funParagraph {
+  color:green;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 92px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--main-white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 8px;
+    display: block;
+    background-color: rgb(199, 199, 199);
+    background-image: url("assignment-4-pics/background.jpg");
+    background-size: contain;
+    background-blend-mode: darken;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--main-blue);
+    color: var(--main-white);
+}
+
+
+h1 {
+    margin: 5px;
+}
+
+h2, p {
+    margin:0;
+}
+
+#travel-story , #gallery-info {
+    margin-top: 120px;
+    background-color: var(--main-white);
+    border-radius: 10px;
+    padding: 10px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery-day {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1500px;
+    padding: 20px 10px;
+}
+
+.img-day {
+    padding: 8px;
+    background-color: var(--main-white);
+    border-radius: 10px;
+}
+
+.travel-images {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    opacity: .8;
+}
+.travel-images:hover {
+    opacity: 1;
+}
+
+.day-hash {
+    font-weight: bold;
+    font-size: large;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main-blue);
+  }
+  
+  #navbar li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: var(--main-gray);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 104px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 1.5px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {background-color: #dbdbdb;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #travel-blog h2 {
+    background-color: var(--main-white);;
+    border-radius: 10px;
+  }
+  
+  #blog-list li {
+    list-style: none;
+    background-color: var(--main-white);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    padding: 5px;
+  }
+
+
+footer {
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 100px;
+  }
+  
+  footer p {
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  #contact-links {
+    margin:20px;
+  }
+  
+  .contact-details {
+    font-size: 25px;
+    text-shadow: 3px 3px 1px black;
+    transition: transform 0.2s ease-out;
+    margin: 20px 15px;
+  }
+  footer a:link {
+    color: var(--main-white)
+  }
+
+  footer a:visited {
+    color:var(--main-gray);
+  }
+  footer a:hover {
+    color: var(--main-orange)
+  }
+  .contact-details :hover {
+    transform: translateY(4px);
+  }
