@@ -231,8 +231,8 @@ const data = [
     // },
 ]
 
-document.getElementById("travel-story").innerHTML += `<p>${data[0].story}</p>`;
-
 const gallery = document.getElementById("gallery");
 const travelStory = document.getElementById("travel-story");
-const travelBlog = document.getElementById("travel-blog")
+const travelBlog = document.getElementById("travel-blog");
+
+travelStory.innerHTML += `<p>${data[0].story}</p>`;
