@@ -92,9 +92,20 @@ h2, p {
     object-fit: cover;
     border-radius: 15px;
     opacity: .8;
+    transition: ease-in-out .5s;
 }
-.travel-images:hover {
+
+.hover {
+    color: var(--main-white);
+    transition: ease-in-out .5s;
+    font-weight: bold;
+}
+.img-day:hover .travel-images {
     opacity: 1;
+}
+
+.img-day:hover .hover {
+    color: #153d6b;
 }
 
 .day-hash {
