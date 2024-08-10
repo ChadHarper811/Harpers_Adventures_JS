@@ -179,4 +179,29 @@ const data = [
             }
         ]
     },
+    {
+        day: ,
+        dayData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
 ]
