@@ -231,8 +231,16 @@ const data = [
     // },
 ]
 
-const gallery = document.getElementById("gallery");
 const travelStory = document.getElementById("travel-story");
+const gallery = document.getElementById("gallery");
 const travelBlog = document.getElementById("travel-blog");
 
 travelStory.innerHTML += `<p>${data[0].story}</p>`;
+
+gallery.innerHTML += `
+    <div class="gallery-day-container" id="day1">
+        <div class="img-container">
+            <img  class="travel-images" src="travel_pictures/7-09-09.JPG" alt="China International Plane"/><br><span class="day-hash"><span class="hover">&lt;</span> Day 1 <span class="hover">&#47;&gt;</span></span><br>China International Plane
+        </div>
+    </div>
+    `

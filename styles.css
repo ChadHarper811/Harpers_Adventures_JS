@@ -71,7 +71,7 @@ h2, p {
     padding: 20px 10px;
 }
 
-.gallery-day {
+.gallery-day-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,7 +82,7 @@ h2, p {
     padding: 20px 10px;
 }
 
-.img-day {
+.img-container {
     color: var(--white);
     padding: 8px;
     background-color: var(--blue);
@@ -103,11 +103,11 @@ h2, p {
     transition: ease-in-out .5s;
     font-weight: bold;
 }
-.img-day:hover .travel-images {
+.img-container:hover .travel-images {
     opacity: 1;
 }
 
-.img-day:hover .hover {
+.img-container:hover .hover {
     color: var(--orange);
 }
 
