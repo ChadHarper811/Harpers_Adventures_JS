@@ -448,9 +448,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 21,
+        date: "7/29/2009",
+        blog: "Woke up early to catch a ride with their aunt into Taipei on her way to work. We take the train after that into the city to meet up with the aunt’s coworkers daughter and friend to go to the zoo. We get off at the wrong stop but end up finding the zoo just fine after some walking. We spend several hours at the zoo and after we get sweaty from the heat we want to find somewhere cooler and head to the Taipei underground mall (also called the Taipei city mall), which is underground in the train station and very cool. We then go back to the aunt’s work and drop off the girls while we wait for the aunt to take us home.",
         imgData: [
             {
                 image: 1,
@@ -475,9 +475,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 22,
+        date: "7/30/2009",
+        blog: "We woke up early to drive to southern Taiwan to visit more of the brothers' relatives, I think another aunt of theirs. It was a 3 hour drive with little stops but we stopped a lot. They had cool huge rest stations along the highway and we also visited Zhushan Zinan Temple along the way. We detoured to see the brother’s dad’s old house but kinda got lost on the way and it ended up taking a few hours. We stayed at a hotel and ended up at the local night market walking around and getting some food. I got a fresh coconut milk from a street vender; he just cut it open, added a straw and handed it to me which was very impressive.",
         imgData: [
             {
                 image: 1,
@@ -502,9 +502,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 23,
+        date: "7/31/2009",
+        blog: "Got free breakfast at the hotel before hitting the road again for several more hours before we finally got to the city where their aunt lived. The aunt was busy so we met their uncle instead just hanging out and catching up. We went out to the National Museum of Marine Biology & Aquarium while their aunt was working. It was amazing with so many fish, penguins, dolphins, sharks, manta rays and stuff to see. While there I tried some dried squid, it was salty and reminded me of jerky. We also made a quick stop at the National Science and Technology Museum. After that we got together with their aunt’s family for dinner and afterwards got some shaved ice at the nearby night market. We also stayed the night with their aunt.",
         imgData: [
             {
                 image: 1,
@@ -529,9 +529,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 24,
+        date: "8/1/2009",
+        blog: "Their aunt owns a small restaurant and they were nice enough to cook us some breakfast. After that we all got ready and headed to meet with the brothers other grandparents from their moms side of the family (we had been staying with their grandma from the dad’s side this whole time). We all ate at a nice restaurant together and since it was so hot we rested back at the house for an hour or so. After that we went to Fo Guang Shan Buddha Museum and it was huge. Lots of statues and temples all over it was an awesome place I highly recommend. After that we got dinner and I tried boiled pig intestines for the first time, not really that bad, just a little chewy. Stayed another night with their aunt’s family.",
         imgData: [
             {
                 image: 1,
@@ -556,9 +556,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 25,
+        date: "8/2/2009",
+        blog: "I don’t have anymore journal entries from here on (seems i got lazy) but i used the pictures i had to figure out what we did each day from here on. So according to my pictures it looks like we went into the city of Kaohsiung, Taiwan. Our first stop was the Dream Mall which is massive and reminds me of the mall of America. There is a ferris wheel on the roof that we went on and the view was spectacular. After walking around the mall for a while we did some sightseeing around the city and ended up on a ferry tour around the harbor of Glory Pier. We walked around the beach some when we got back and ended up in the Central Park metro taking the train back to Formosa Boulevard Station which is a beautiful site itself and the roof is a huge wonderful mural. We got picked up there and stayed one more night with their aunt.",
         imgData: [
             {
                 image: 1,
