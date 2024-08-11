@@ -87,7 +87,7 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-13-09 1.JPG",
+                src: "travel_pictures/7-13-09.JPG",
                 caption: "random street in Taipei"
             }
         ]
@@ -143,7 +143,7 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-16-09 1.JPG",
+                src: "travel_pictures/7-16-09.JPG",
                 caption: "Lazy day with some miso soup"
             }
         ]
@@ -189,46 +189,642 @@ const data = [
                 image: 2,
                 src: "travel_pictures/7-18-09 2.JPG",
                 caption: "Pin Guan Concert"
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-18-09 3.JPG",
-                caption: "Bowl of Ramen"
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-18-09 4.JPG",
-                caption: "Collage of National Sun yat-sen Memorial Hall"
             }
         ]
     },
-    // {
-    //     day: ,
-    //     date: ,
-    //     blog: "",
-    //     imgData: [
-    //         {
-    //             image: 1,
-    //             src: "travel_pictures/7-1-09 1.JPG",
-    //             caption: ""
-    //         },
-    //         {
-    //             image: 2,
-    //             src: "travel_pictures/7-1-09 2.JPG",
-    //             caption: ""
-    //         },
-    //         {
-    //             image: 3,
-    //             src: "travel_pictures/7-1-09 3.JPG",
-    //             caption: ""
-    //         },
-    //         {
-    //             image: 4,
-    //             src: "travel_pictures/7-1-09 4.JPG",
-    //             caption: ""
-    //         }
-    //     ]
-    // },
+    {
+        day: 11,
+        date: "7/19/2009",
+        blog: "Took the bus back into Taipei and the train to Ximending to their uncles again. Went to some stores and walked around for a while. Went back to their uncle's house to hang out with the cousins and then went out for dinner.Can’t remember the name but it was a huge store with regular shops and all kinds of food, at least 12 floors tall. We went to a Japanese restaurant where me and the brothers all had ramen, finally! I had been waiting for real ramen for the whole trip. Hung out back at the uncle's house till their aunt came and took us back home.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-19-09.JPG",
+                caption: "Bowl of Ramen"
+            }
+        ]
+    },
+    {
+        day: 12,
+        date: "7/20/2009",
+        blog: "The plan this day was to visit the National Sun yat-sen Memorial Hall. Got there just in time to see the guard change over, they had guards like buckingham palace that don’t react while on duty. Walked around the memorial hall for the rest of the afternoon and then went to some more expensive shops we hadn't looked at yet and got some more clothes. After that we called it an early night and relaxed the rest of the day back at home.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 13,
+        date: "7/21/2009",
+        blog: "This day was one of my favorites. We went to the National Palace Museum. I was not allowed to take pictures inside so I only got some of the outside garden, which was beautiful. I did get some postcards and a spoon from the gift shop for my dad since he started collecting them. Afterwards, we ate with some of their family at a restaurant that served every part of the animal. I tried pig’s ear, pig's stomach, fish stomach and the hottest red pepper I have ever had (it burned worse than a raw habanero). Walked down the street to a neighborhood memorial where I think the president used to live. Then we took a taxi to the Taipei story house but didn’t stay too long. Tried to go to a museum next door after 5 so it was free entry but they were closing soon so we headed home.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 14,
+        date: "7/22/2009",
+        blog: "The only real thing we did today was go to the bank to get money for Japan. Had to convert money over to Yen and I kept some of it when I returned home as a keepsake. The rest of the day we packed, played games, journaled, and watched tv.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 15,
+        date: "7/23/2009",
+        blog: "Woke up early, finished packing and called my parents back in the states. After everyone gets ready we head to the airport, apparently they messed up my name on my ticket so we have to fix “happer” to harper before they let us through security. Get through fine and take our flight to Japan. Flight was only about 3-4 hours and we took an hour-long bus ride into the city arriving at our hotel about 6pm local time. Walked around the city near our hotel for a while and ate at an AMPM, kinda like a 711 convenience store, since we couldn’t all agree on something. The brothers and I shared a room to make it cheaper so I took the floor and they took the bed.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 16,
+        date: "7/24/2009",
+        blog: "Wake up, get breakfast and head out to the train station. Have to figure out the ticket system but after we do we go to Akihabara to shop. We walk around like total tourists since none of us speak Japanese, well the oldest brother knows some which helps. We went to several anime shops, 2 arcades (way different than ones in the states, they are huge and way more popular), and a couple random stores where I got a magnet which I like to collect from places I've traveled. We took the train again to aqua city, another huge shopping area near the bay with an awesome view. After that we wrap up and head to the hotel.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 17,
+        date: "7/25/2009",
+        blog: "Tried to call home again but the phone card doesn’t work so I go to the store and get another one then have to get help getting it to work and finally call my parents to update them. After all that we get breakfast and head by train to Tokyo tower! We go to both the normal level of the tower and the top deck observation room too and we see the whole city with the amazing view from up there. We went to some pokemon store first and then headed to Sunshine city, a popular skyscraper with shopping on the lower floors, and Tokyu hands, another popular and unique store. I Found many other stores and anime shops nearby but my favorite was an arcade where I got to play a gundam game where they actually have a pilot cockpit.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 18,
+        date: "7/26/2009",
+        blog: "We went to Akihabara and Harajuku, Shibuya, both very popular areas with lots of touristy stuff and shopping. Can’t remember how many stores we looked through that day but it was a lot of fun walking around and riding the train everywhere. I do remember going to a 100 yen store much like a dollar store again where I got chopsticks I still use to this day. I also got a satchel bag I still have at zenmall. We kept walking around town a lot and finally ended up back at the hotel to call it a night.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 19,
+        date: "7/27/2009",
+        blog: "Woke up early and packed up or stuff to head back to Taiwan. Took a bus back to the airport and hoped on our plane arriving back in Taiwan around 4pm. We then take another really long bus ride back to Taipei to meet up with their aunt for dinner and head back home",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: 20,
+        date: "7/28/2009",
+        blog: "Another free day today so I get more money from the bank then walk around the town a bit with the brothers. We get some noodles and food from 711 then head home for the night.",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
+    {
+        day: ,
+        date: ,
+        blog: "",
+        imgData: [
+            {
+                image: 1,
+                src: "travel_pictures/7-1-09 1.JPG",
+                caption: ""
+            },
+            {
+                image: 2,
+                src: "travel_pictures/7-1-09 2.JPG",
+                caption: ""
+            },
+            {
+                image: 3,
+                src: "travel_pictures/7-1-09 3.JPG",
+                caption: ""
+            },
+            {
+                image: 4,
+                src: "travel_pictures/7-1-09 4.JPG",
+                caption: ""
+            }
+        ]
+    },
 ]
 
 const travelStory = document.getElementById("travel-story");
