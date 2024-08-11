@@ -237,10 +237,38 @@ const travelBlog = document.getElementById("travel-blog");
 
 travelStory.innerHTML += `<p>${data[0].story}</p>`;
 
+data.forEach(
+    ({day, dayData}) => {
+        day ?
+        gallery.innerHTML += `
+            <div class="gallery-day-container" id="day${day}">${day}
+                ${dayData.forEach(
+                    ({image, src, caption}) => {
+                        return `
+                        <div class="img-container">
+                            <img class="travel-images" src="${src}" alt="${caption}"/><br>
+                            <span class="bold"><span class="hover">&lt;</span> Day ${day} ${dayData.length > 1 ? `#${image}` : ""}<span class="hover">&#47;&gt;</span></span><br>
+                            ${caption}
+                        </div>
+                        `
+                    }
+                )}
+                
+            </div>
+        ` 
+        : "";
+        const galleryDayContainer = document.getElementById(`day${day}`);
+        galleryDayContainer.innerHTML =+ `
+        
+        `
+})
+
 gallery.innerHTML += `
     <div class="gallery-day-container" id="day1">
         <div class="img-container">
-            <img  class="travel-images" src="travel_pictures/7-09-09.JPG" alt="China International Plane"/><br><span class="day-hash"><span class="hover">&lt;</span> Day 1 <span class="hover">&#47;&gt;</span></span><br>China International Plane
+            <img class="travel-images" src="${dayData[0].src}" alt="${dayData[0].caption}"/><br>
+            <span class="bold"><span class="hover">&lt;</span> Day ${day} ${dayData.length > 1 ? `#${dayData[0].image}` : ""}<span class="hover">&#47;&gt;</span></span><br>
+            ${dayData[0].caption}
         </div>
     </div>
     `

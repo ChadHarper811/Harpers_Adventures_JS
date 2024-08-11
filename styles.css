@@ -111,7 +111,7 @@ h2, p {
     color: var(--orange);
 }
 
-.day-hash {
+.bold {
     font-weight: bold;
     font-size: large;
 }
