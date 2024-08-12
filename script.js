@@ -39,7 +39,7 @@ const data = [
             {
                 image: 2,
                 src: "travel_pictures/7-11-09 2.JPG",
-                caption: "Keelung, Taiwan"
+                caption: "Random street graffiti"
             },
             {
                 image: 3,
