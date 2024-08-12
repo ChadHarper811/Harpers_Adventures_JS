@@ -211,23 +211,8 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
-            },
-            {
-                image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-20-09.JPG",
+                caption: "Collage of National Sun yat-sen Memorial Hal"
             }
         ]
     },
@@ -238,23 +223,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-21-09 1.JPG",
+                caption: "Chiang Kai-shek Shilin Residence garden"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-21-09 2.JPG",
+                caption: "Chiang Kai-shek Shilin Residence garden flowers"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/7-21-09 3.JPG",
+                caption: "Taipei Fine Arts Museum"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-21-09 4.JPG",
+                caption: "Taipei Story House"
             }
         ]
     },
@@ -265,23 +250,8 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
-            },
-            {
-                image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-22-09.JPG",
+                caption: "Yen bills"
             }
         ]
     },
@@ -292,23 +262,8 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
-            },
-            {
-                image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-23-09.JPG",
+                caption: "Flight times - Taipei Airport"
             }
         ]
     },
@@ -319,23 +274,18 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-24-09 1.JPG",
+                caption: "Aqua City building"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-24-09 2.JPG",
+                caption: "Tokyo skyline at night"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-24-09 3.JPG",
+                caption: "Tokyo train station"
             }
         ]
     },
@@ -346,23 +296,18 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-25-09 1.JPG",
+                caption: "Tokyo Tower"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-25-09 2.JPG",
+                caption: "Tokyo train - Green line"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-25-09 3.JPG",
+                caption: "Tokyo city view from Tokyo Tower"
             }
         ]
     },
@@ -373,23 +318,18 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-26-09 1.JPG",
+                caption: "Shibuya"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-26-09 2.JPG",
+                caption: "Akihabara"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-26-09 3.JPG",
+                caption: "Ikebukuro"
             }
         ]
     },
@@ -400,23 +340,18 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-27-09 1.JPG",
+                caption: "Bus to Tokyo airport"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-27-09 2.JPG",
+                caption: "Tokyo airport"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-27-09 3.JPG",
+                caption: "Taiwan airport"
             }
         ]
     },
@@ -427,23 +362,8 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
-            },
-            {
-                image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-28-09.JPG",
+                caption: "Keelung City river view"
             }
         ]
     },
@@ -454,23 +374,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-29-09 1.JPG",
+                caption: "Taipei zoo - Flamingos"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-29-09 2.JPG",
+                caption: "Taipei zoo - Taiwan serow"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/7-29-09 3.JPG",
+                caption: "Taipei zoo - Panda"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-29-09 4.JPG",
+                caption: "Taipei zoo - Elephants"
             }
         ]
     },
@@ -481,23 +401,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-30-09 1.JPG",
+                caption: "Zhushan Zinan Temple"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-30-09 2.JPG",
+                caption: "Taiwan highway toll station"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/7-30-09 3.JPG",
+                caption: "Night market in Southern Taiwan"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-30-09 4.JPG",
+                caption: "Coconut street vender"
             }
         ]
     },
@@ -508,23 +428,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/7-31-09 1.JPG",
+                caption: "National Museum of Marine Biology & Aquarium"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/7-31-09 2.JPG",
+                caption: "Aquarium tunnel"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/7-31-09 3.JPG",
+                caption: "Aquarium - Dolphins"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/7-31-09 4.JPG",
+                caption: "National Science and Technology Museum"
             }
         ]
     },
@@ -535,23 +455,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-01-09 1.JPG",
+                caption: "Fo Guang Shan Buddha Museum - entrance"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-01-09 2.JPG",
+                caption: "Fo Guang Shan - Buddha statues"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-01-09 3.JPG",
+                caption: "Fo Guang Shan Buddha Museum"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-01-09 4.JPG",
+                caption: "Fo Guang Shan - temple"
             }
         ]
     },
@@ -562,23 +482,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-02-09 1.JPG",
+                caption: "Dream Mall"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-02-09 2.JPG",
+                caption: "Glory Pier Ferry"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-02-09 3.JPG",
+                caption: "Glory Pier beach"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-02-09 4.JPG",
+                caption: "Formosa Boulevard Station"
             }
         ]
     },
@@ -589,23 +509,13 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-03-09 1.JPG",
+                caption: "Zuoying Train to Taipei"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-03-09 2.JPG",
+                caption: "Zuoying area view from train"
             }
         ]
     },
@@ -616,23 +526,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-04-09 1.JPG",
+                caption: "Shopping district near Taipei 101"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-04-09 2.JPG",
+                caption: "Random part of Taipei city"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-04-09 3.JPG",
+                caption: "Guandu Bridge"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-04-09 4.JPG",
+                caption: "Mount Guanyin"
             }
         ]
     },
@@ -643,23 +553,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-05-09 1.JPG",
+                caption: "Miramar Entertainment Park"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-05-09 2.JPG",
+                caption: "Dahu Park trail"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-05-09 3.JPG",
+                caption: "Dahu Park bridge"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-05-09 4.JPG",
+                caption: "Dahu Park"
             }
         ]
     },
@@ -670,23 +580,8 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
-            },
-            {
-                image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-06-09.JPG",
+                caption: "Keelung typhoon weather"
             }
         ]
     },
@@ -697,23 +592,8 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
-            },
-            {
-                image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-07-09.JPG",
+                caption: "Corner of our room"
             }
         ]
     },
@@ -724,23 +604,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-08-09 1.JPG",
+                caption: "Movie theater in Keelung"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-08-09 2.JPG",
+                caption: "Tom’s world Arcade"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-08-09 3.JPG",
+                caption: "Keelung City river view"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-08-09 4.JPG",
+                caption: "Keelung street to home"
             }
         ]
     },
@@ -751,23 +631,13 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-09-09 1.JPG",
+                caption: "Outside NTU Sports center"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
-            },
-            {
-                image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
-            },
-            {
-                image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-09-09 2.JPG",
+                caption: "Inside NTU Sports center"
             }
         ]
     },
@@ -778,23 +648,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-10-09 1.JPG",
+                caption: "Grand Hotel Taipei"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-10-09 2.JPG",
+                caption: "Taipei airport"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-10-09 3.JPG",
+                caption: "Above the clouds flying to LA"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-10-09 4.JPG",
+                caption: "Above LA"
             }
         ]
     },
@@ -805,23 +675,23 @@ const data = [
         imgData: [
             {
                 image: 1,
-                src: "travel_pictures/7-1-09 1.JPG",
-                caption: ""
+                src: "travel_pictures/8-11-09 1.JPG",
+                caption: "Hotel in Phoenix"
             },
             {
                 image: 2,
-                src: "travel_pictures/7-1-09 2.JPG",
-                caption: ""
+                src: "travel_pictures/8-11-09 2.JPG",
+                caption: "Above clouds in Phoenix"
             },
             {
                 image: 3,
-                src: "travel_pictures/7-1-09 3.JPG",
-                caption: ""
+                src: "travel_pictures/8-11-09 3.JPG",
+                caption: "Above clouds in KC"
             },
             {
                 image: 4,
-                src: "travel_pictures/7-1-09 4.JPG",
-                caption: ""
+                src: "travel_pictures/8-11-09 4.JPG",
+                caption: "KC skyline from the air"
             }
         ]
     },
