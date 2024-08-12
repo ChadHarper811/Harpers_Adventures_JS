@@ -695,6 +695,31 @@ const data = [
             }
         ]
     },
+    {
+        link: "https://chadharper811.github.io/Resume/",
+        icon: "fa-solid fa-file",
+        text: "Resume Site "
+    },
+    {
+        link: "mailto: chadharper811@gmail.com",
+        icon: "fa-solid fa-envelope",
+        text: "Email me "
+    },
+    {
+        link: "tel:913-961-8439",
+        icon: "fa-solid fa-mobile-screen",
+        text: "Call me "
+    },
+    {
+        link: "https://www.linkedin.com/in/chadharper811/",
+        icon: "fa-brands fa-linkedin",
+        text: "LinkedIn "
+    },
+    {
+        link: "https://github.com/ChadHarper811",
+        icon: "fa-brands fa-square-github",
+        text: "GitHub "
+    },
 ]
 
 const travelStory = document.getElementById("travel-story");
@@ -702,6 +727,7 @@ const gallery = document.getElementById("gallery");
 const travelBlogList = document.getElementById("blog-list");
 const galleryDropdown = document.getElementById("gallery-dropdown");
 const blogDropdown = document.getElementById("blog-dropdown");
+const contactLinks = document.getElementById("contact-links");
 
 
 travelStory.innerHTML += `<p>${data[0].story}</p>`;
@@ -741,5 +767,12 @@ data.filter(el => el.day).forEach(
     ({day}) => {
         blogDropdown.innerHTML += `
         <a href="#blog-day${day}">Day ${day}</a>
+        `
+});
+
+data.filter(el => el.link).forEach(
+    ({link, icon, text}) => {
+        contactLinks.innerHTML += `
+        <a href="${link}" class="contact-details"> <span class="hover">&lt;</span> <i class="${icon}"></i>${text}<span class="hover">&#47;&gt;</span> </a>
         `
 });
