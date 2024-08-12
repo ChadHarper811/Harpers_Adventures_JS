@@ -706,9 +706,8 @@ const blogDropdown = document.getElementById("blog-dropdown");
 
 travelStory.innerHTML += `<p>${data[0].story}</p>`;
 
-data.forEach(
+data.filter(el => el.day).forEach(
     ({day, imgData}) => {
-        day ?
         gallery.innerHTML += `
             <div class="gallery-day-container" id="day${day}">${day}
             ${imgData.map((e) => {
@@ -722,32 +721,25 @@ data.forEach(
             })}
             </div>
         ` 
-        : "";
 });
 
-data.forEach(
+data.filter(el => el.day).forEach(
     ({day, date, blog}) => {
-        day ? 
         travelBlogList.innerHTML += `
         <li id="blog-day${day}" class="blog-post"><span class="bold"> Day ${day}: ${date}</span><br> ${blog}</li>
         `
-        : "";
 });
 
-data.forEach(
+data.filter(el => el.day).forEach(
     ({day}) => {
-        day ? 
         galleryDropdown.innerHTML += `
         <a href="#day${day}">Day ${day}</a>
         `
-        : "";
 });
 
-data.forEach(
+data.filter(el => el.day).forEach(
     ({day}) => {
-        day ? 
         blogDropdown.innerHTML += `
-        <a href="#day${day}">Day ${day}</a>
+        <a href="#blog-day${day}">Day ${day}</a>
         `
-        : "";
 });
