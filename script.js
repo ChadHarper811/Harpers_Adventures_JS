@@ -583,9 +583,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 26,
+        date: "8/3/2009",
+        blog: "Woke up early to hop on a train back to the northern part of Taiwan from Zuoying Station to Taipei. The trip should have taken about 3 hours and after we got back we went walking around doing some more sightseeing and shopping in Taipei. Not very eventful but I got some sushi and subway before we headed home.",
         imgData: [
             {
                 image: 1,
@@ -610,9 +610,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 27,
+        date: "8/4/2009",
+        blog: "Not exactly sure what all I did that day but I am sure we went into Taipei near the Taipei 101 tower to see a movie. We walked around a lot going all over the city shopping and sightseeing. We took the train a lot that day and it seems we ended up in the underground plaza at one point too.",
         imgData: [
             {
                 image: 1,
@@ -637,9 +637,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 28,
+        date: "8/5/2009",
+        blog: "We went back to the underground mall in the morning then took the train to Miramar Entertainment Park, a big mall similar to the dream mall. It also had a ferris wheel on the roof that we went up in and it started raining which actually made it more interesting while we were up there. After that we visited Dahu Park even though it was still raining and walked around looking at the beautiful and old architecture. The big red bridge was my favorite here. Not much left to do that day so we called it a night.",
         imgData: [
             {
                 image: 1,
@@ -664,9 +664,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 29,
+        date: "8/6/2009",
+        blog: "It was full on typhoon weather from yesterday into today, like full on flood weather, so we mostly stayed home. Not much to report other than I got more sushi.",
         imgData: [
             {
                 image: 1,
@@ -691,9 +691,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 30,
+        date: "8/7/2009",
+        blog: "Still rainy and had no plans so we had another free day relaxing inside our room.",
         imgData: [
             {
                 image: 1,
@@ -718,9 +718,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 31,
+        date: "8/8/2009",
+        blog: "Being of the day finally cleared up enough to walk into town and we saw I think G.I. Joe this time. After that we went to an arcade and I tried playing street fighter. I quickly realized I am not good and it took me much longer to realize I was playing against someone on the other side of the machine who was very good at the game. We walked around Keelung a bit more looking at some places we hadn’t yet been to and got rained on a bit on the walk back to the house before we called it a night.",
         imgData: [
             {
                 image: 1,
@@ -745,9 +745,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 32,
+        date: "8/9/2009",
+        blog: "Still cloudy but no rain when we got up to go into town this time. We went to Taipei for an anime convention at The NTU Sports center. There were a huge number of people here and a good number of them were dressed up in cosplay. I was loving it and the people were really in character. I think my friend was the one to suggest it and I'm glad he did it was awesome. Never seen so much cosplay before. Spent most of the afternoon there before heading home and packing up for our return trip.",
         imgData: [
             {
                 image: 1,
@@ -772,9 +772,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 33,
+        date: "8/10/2009",
+        blog: "Finished packing up all our stuff and headed back to the airport. This time we would be going east toward the sun and the day should feel really short but with all the time zone changes and the 12ish hour flight back we somehow left at 4pm 8/10 from Taipei and landed at 2pm 8/10 in LA. No idea how that works but it was confusing and like time travel since we went through so many time zones. I think one of the zones is the day limit over the ocean so technically when you pass through it's the next day. Which would explain the flight leaving 7/09 at 4pm and landing on 7/10 at 8pm. Still weird and causes major jet lag. We then had a flight from 5pm LA to 6pm Phoenix AR and were supposed to go to KC the same day but got held up and had to stay the night in Phoenix. I was mad because my bathing suit was in my check bag so I couldn't even use the pool/hot tub in the hotel they booked us in.",
         imgData: [
             {
                 image: 1,
@@ -799,9 +799,9 @@ const data = [
         ]
     },
     {
-        day: ,
-        date: ,
-        blog: "",
+        day: 34,
+        date: "8/11/2009",
+        blog: "Finally, we took our flight from Phoenix to KC in the morning and luckily they already sent our check bags through so they are waiting for us when we get there. It is also my birthday when we arrive so just in time to have dinner with my family.",
         imgData: [
             {
                 image: 1,
