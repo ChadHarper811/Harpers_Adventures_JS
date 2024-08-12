@@ -1,11 +1,11 @@
 const data = [
     {
-        story: "Back in 2009, right after my high school graduation, my best friends Sen and Young were going to visit their family in Taiwan. I had never been outside the country at this point and I half-jokingly asked them to convince their parents to let me tag along. When they actually did ask and their parents said yes I was surprised and thrilled. I had to pay for all my own travel expenses and such but they would let me stay with them and feed me when we ate at their house. We were there for 34 days and we also went to Tokyo, Japan for 5 days. These are the better pictures below and a short journal entry for each day's activities."
+        story: "Back in 2009, right after my high school graduation, my best friends Sen and Young were going to visit their family in Taiwan. I had never been outside the country at this point and I half-jokingly asked them to convince their parents to let me tag along. They actually did ask and their parents said yes I was surprised and thrilled. I had to pay for all my own travel expenses and such but they would let me stay with them and feed me when we didn't eat out. We were there for 34 days and we also went to Tokyo, Japan for 5 days. These are the better pictures below and a short journal entry for each day's activities."
     },
     {
         day: 1,
         date: "7/9/2009",
-        blog: "First day of travel from Kansas City to Taiwan. Our first stop was LA ,which took about 4 hours but with the time zones it took it down to about 1 hour on paper (9:00 am KC to 10:30 am LA), then left LA on a bigger plane that would take us to Taiwan at 4pm. The flight from LA to Taiwan was 13 hours but again time zone changes made it much less and we landed around 8:30 pm the next day (time zones are weird) just as the sun was setting.",
+        blog: "First day of travel from Kansas City to Taiwan. Our first stop was LA, which took about 4 hours but with the time zones it took it down to about 1 hour on paper (9:00 am KC to 10:30 am LA), then left LA on a bigger plane that would take us to Taiwan at 4pm. The flight from LA to Taiwan was 13 hours but again time zone changes made it much less and we landed around 8:30 pm the next day (time zones are weird) just as the sun was setting.",
         imgData: [
             {
                 image: 1,
@@ -17,7 +17,7 @@ const data = [
     {
         day: 2,
         date: "7/10/2009",
-        blog: "We went from the airport in Taipei to my friend's grandma's house in Keelung, where we would call home for most of the trip, and passed out immediately. Overall we were awake and in the sun for almost 23 hours that day. The time zone changes made it a very long day, or 2 days I suppose, since we were going with the sun so this was probably the longest day of my life.",
+        blog: "We went from the airport in Taipei to my friend's grandma's house in Keelung, where we would call home for most of the trip, and passed out immediately. Overall we were awake and in the sun for almost 23 hours that day. The time zone changes made it a very long day, or 2 days I suppose, since we went with the sun so that was probably the longest day of my life.",
         imgData: [
             {
                 image: 1,
@@ -29,7 +29,7 @@ const data = [
     {
         day: 3,
         date: "7/11/2009",
-        blog: "First official day we got up at a decent time around 8am and walked into town to see a bit and buy some food. After walking around a while we go back to the house and take a nap before setting out for the town again at night to go shopping at the night market.",
+        blog: "First official day we got up at a decent time around 8am and walked into town to see a bit and buy some food. After walking around a while we went back to the house and took a nap before setting out for the town again at night to go shopping at the night market.",
         imgData: [
             {
                 image: 1,
@@ -56,7 +56,7 @@ const data = [
     {
         day: 4,
         date: "7/12/2009",
-        blog: "Today we have plans to explore some more of the town nearby again and see a concert on the beach a decent drive away. So we started with going to town to get food again. This time I tried some new fruit called guava and pitaya (also called dragon fruit), both are delicious. You can get these in the states but nothing compares to local and fresh since they have to pick them early to ship them, they just don’t compare. After breakfast we head up the hill to a local park/temple and get a beautiful view of Keelung. We rested a while and then headed down the coast to Fulong Beach for the concert. The stage is set on a huge sand barge and there are hundreds of people. My friend's aunt doesn’t let me swim because it’s typhoon season but I still play in the water and have a great time at the concert before we head home for the night.",
+        blog: "This day we had plans to explore some more of the town nearby again and see a concert on the beach a decent drive away. So we started with going to town to get food again. This time I tried some new fruit called guava and pitaya (also called dragon fruit), both are delicious. You can get these in the states but nothing compares to getting it local and fresh since they have to pick them early to ship them, they just don’t compare. After breakfast we head up the hill to a local park/temple and got a beautiful view of Keelung. We rested a while and then headed down the coast to Fulong Beach for the concert. The stage was set on a huge sand barge and there were hundreds of people. My friend's aunt doesn’t let me fully get in and swim because it’s typhoon season but I still got in up to my waist and had a great time at the concert before we headed home for the night.",
         imgData: [
             {
                 image: 1,
@@ -83,7 +83,7 @@ const data = [
     {
         day: 5,
         date: "7/13/2009",
-        blog: "We go into town looking for a place to get a phone sim card for the brothers so they can call/text while we are here without international charges. After we find that, we get dropped off in Taipei and visit one of my friend's uncle's shops and they catch up for a while. We then go and get our hair done. Both the brothers get a bit cut and styled with one even getting red dye while I try and see what dark hair looks like on me, they don’t let me get black so I go with dark brown (it did not look that good but at the time I thought it was cool, should have taken the hint from the stylist). We then meet up with my friend's aunt at her work and try to chat in English with some of their coworkers' daughters to help them practice. We head home after that.",
+        blog: "We went into town looking for a place to get a phone sim card for the brothers so they can call/text while we are here without international charges. After we found that, we got dropped off in Taipei and visit one of my friend's uncle's shops and they caught up for a while. We then went and got our hair done. Both the brothers got a bit cut and styled, with one even getting red dye while I try and see what dark hair looks like on me. They don’t let me get black so I went with dark brown (it did not look that good but at the time I thought it was cool, should have taken the hint from the stylist). We then met up with my friend's aunt at her work and try to chat in English with some of their coworkers' daughters to help them practice. We headed home after that.",
         imgData: [
             {
                 image: 1,
@@ -95,7 +95,7 @@ const data = [
     {
         day: 6,
         date: "7/14/2009",
-        blog: "Today we are heading back to Taipei to visit another of my friends' uncles, aunt and cousins. This time we take the bus into the city and then hop on the train to get there (my first time on a train ever!). We hang out with their cousins till dinner and all go out to a nice restaurant where I get my fill of sushi and pork. We then go to the local night market and buy some clothes. We stayed the night with their cousins.",
+        blog: "Today we are heading back to Taipei to visit another of my friends' uncles, aunt and cousins. This time we take the bus into the city and then hop on the train to get there (my first time on a train ever!). We hang out with their cousins till dinner and all go out to a nice restaurant where I got my fill of sushi and pork. We then go to the local night market and buy some clothes. We stayed the night with their cousins.",
         imgData: [
             {
                 image: 1,
@@ -151,7 +151,7 @@ const data = [
     {
         day: 9,
         date: "7/17/2009",
-        blog: "Today was my favorite, going to the tallest tower in the world! (was the tallest during this trip) We started walking to the bus and taking it into Taipei to see Harry Potter 6, it was ok. After that, we headed over to the Taipei 101 tower. We made a bank visit while on the way to get more cash and went to a NT$39 store, a 39 taiwan dollar store which is like a dollar store in the states, and got some souvenirs. Once at the tower we head up to the top of the roof on the 91st floor but only get to see half the roof since it's windy and still typhoon season. It was the most amazing view and I could see all the way to the mountains. We stay till sun down and go to a bookstore on the way back home and pass out after a long day.",
+        blog: "Today was my favorite, went to the tallest tower in the world! (was the tallest during this trip) We started walking to the bus and taking it into Taipei to see Harry Potter 6, it was ok. After that, we headed over to the Taipei 101 tower. We made a bank visit while on the way to get more cash and went to a NT$39 store, a 39 taiwan dollar store which is like a dollar store in the states, and got some souvenirs. Once at the tower we head up to the top of the roof on the 91st floor but only got to see half the roof since it's windy and still typhoon season. It was the most amazing view and I could see all the way to the mountains. We stay till sun down and go to a bookstore on the way back home and pass out after a long day.",
         imgData: [
             {
                 image: 1,
@@ -258,7 +258,7 @@ const data = [
     {
         day: 15,
         date: "7/23/2009",
-        blog: "Woke up early, finished packing and called my parents back in the states. After everyone gets ready we head to the airport, apparently they messed up my name on my ticket so we have to fix “happer” to harper before they let us through security. Get through fine and take our flight to Japan. Flight was only about 3-4 hours and we took an hour-long bus ride into the city arriving at our hotel about 6pm local time. Walked around the city near our hotel for a while and ate at an AMPM, kinda like a 711 convenience store, since we couldn’t all agree on something. The brothers and I shared a room to make it cheaper so I took the floor and they took the bed.",
+        blog: "Woke up early, finished packing and called my parents back in the states. After everyone got ready we head to the airport, apparently they messed up my name on my ticket so we have to fix “Happer” to Harper before they let us through security. Got through fine and take our flight to Japan. Flight was only about 3-4 hours and we took an hour-long bus ride into the city arriving at our hotel about 6pm local time. Walked around the city near our hotel for a while and ate at an AMPM, kinda like a 711 convenience store, since we couldn’t all agree on something. The brothers and I shared a room to make it cheaper so I took the floor and they took the bed.",
         imgData: [
             {
                 image: 1,
@@ -270,7 +270,7 @@ const data = [
     {
         day: 16,
         date: "7/24/2009",
-        blog: "Wake up, get breakfast and head out to the train station. Have to figure out the ticket system but after we do we go to Akihabara to shop. We walk around like total tourists since none of us speak Japanese, well the oldest brother knows some which helps. We went to several anime shops, 2 arcades (way different than ones in the states, they are huge and way more popular), and a couple random stores where I got a magnet which I like to collect from places I've traveled. We took the train again to aqua city, another huge shopping area near the bay with an awesome view. After that we wrap up and head to the hotel.",
+        blog: "Woke up, got breakfast and headed out to the train station. Had to figure out the ticket system but after we do we go to Akihabara to shop. We walked around like total tourists since none of us speak Japanese, well the oldest brother knows some which helped. We went to several anime shops, 2 arcades (way different than ones in the states, they are huge and way more popular), and a couple random stores where I got a magnet which I like to collect from places I've traveled. We took the train again to aqua city, another huge shopping area near the bay with an awesome view. After that we wraped up and headed to the hotel.",
         imgData: [
             {
                 image: 1,
@@ -292,7 +292,7 @@ const data = [
     {
         day: 17,
         date: "7/25/2009",
-        blog: "Tried to call home again but the phone card doesn’t work so I go to the store and get another one then have to get help getting it to work and finally call my parents to update them. After all that we get breakfast and head by train to Tokyo tower! We go to both the normal level of the tower and the top deck observation room too and we see the whole city with the amazing view from up there. We went to some pokemon store first and then headed to Sunshine city, a popular skyscraper with shopping on the lower floors, and Tokyu hands, another popular and unique store. I Found many other stores and anime shops nearby but my favorite was an arcade where I got to play a gundam game where they actually have a pilot cockpit.",
+        blog: "Tried to call home again but the phone card doesn’t work so I go to the store and got another one then have to get help getting it to work and finally call my parents to update them. After all that we got breakfast and head by train to Tokyo tower! We go to both the normal level of the tower and the top deck observation room too and we see the whole city with the amazing view from up there. We went to some pokemon store first and then headed to Sunshine city, a popular skyscraper with shopping on the lower floors, and Tokyu hands, another popular and unique store. I Found many other stores and anime shops nearby but my favorite was an arcade where I got to play a gundam game where they actually have a pilot cockpit.",
         imgData: [
             {
                 image: 1,
@@ -358,7 +358,7 @@ const data = [
     {
         day: 20,
         date: "7/28/2009",
-        blog: "Another free day today so I get more money from the bank then walk around the town a bit with the brothers. We get some noodles and food from 711 then head home for the night.",
+        blog: "Another free day today so I got more money from the bank then walk around the town a bit with the brothers. We got some noodles and food from 711 then head home for the night.",
         imgData: [
             {
                 image: 1,
@@ -370,7 +370,7 @@ const data = [
     {
         day: 21,
         date: "7/29/2009",
-        blog: "Woke up early to catch a ride with their aunt into Taipei on her way to work. We take the train after that into the city to meet up with the aunt’s coworkers daughter and friend to go to the zoo. We get off at the wrong stop but end up finding the zoo just fine after some walking. We spend several hours at the zoo and after we get sweaty from the heat we want to find somewhere cooler and head to the Taipei underground mall (also called the Taipei city mall), which is underground in the train station and very cool. We then go back to the aunt’s work and drop off the girls while we wait for the aunt to take us home.",
+        blog: "Woke up early to catch a ride with their aunt into Taipei on her way to work. We take the train after that into the city to meet up with the aunt’s coworkers daughter and friend to go to the zoo. We got off at the wrong stop but end up finding the zoo just fine after some walking. We spend several hours at the zoo and after we got sweaty from the heat we want to find somewhere cooler and head to the Taipei underground mall (also called the Taipei city mall), which is underground in the train station and very cool. We then go back to the aunt’s work and drop off the girls while we wait for the aunt to take us home.",
         imgData: [
             {
                 image: 1,
@@ -600,7 +600,7 @@ const data = [
     {
         day: 31,
         date: "8/8/2009",
-        blog: "Being of the day finally cleared up enough to walk into town and we saw I think G.I. Joe this time. After that we went to an arcade and I tried playing street fighter. I quickly realized I am not good and it took me much longer to realize I was playing against someone on the other side of the machine who was very good at the game. We walked around Keelung a bit more looking at some places we hadn’t yet been to and got rained on a bit on the walk back to the house before we called it a night.",
+        blog: "Beginning of the day finally cleared up enough to walk into town and we saw I think G.I. Joe this time. After that we went to an arcade and I tried playing street fighter. I quickly realized I am not good and it took me much longer to realize I was playing against someone on the other side of the machine who was very good at the game. We walked around Keelung a bit more looking at some places we hadn’t yet been to and got rained on a bit on the walk back to the house before we called it a night.",
         imgData: [
             {
                 image: 1,
@@ -671,7 +671,7 @@ const data = [
     {
         day: 34,
         date: "8/11/2009",
-        blog: "Finally, we took our flight from Phoenix to KC in the morning and luckily they already sent our check bags through so they are waiting for us when we get there. It is also my birthday when we arrive so just in time to have dinner with my family.",
+        blog: "Finally, we took our flight from Phoenix to KC in the morning and luckily they already sent our check bags through so they are waiting for us when we got there. It is also my birthday when we arrive so just in time to have dinner with my family.",
         imgData: [
             {
                 image: 1,
@@ -699,7 +699,10 @@ const data = [
 
 const travelStory = document.getElementById("travel-story");
 const gallery = document.getElementById("gallery");
-const travelBlog = document.getElementById("travel-blog");
+const travelBlogList = document.getElementById("blog-list");
+const galleryDropdown = document.getElementById("gallery-dropdown");
+const blogDropdown = document.getElementById("blog-dropdown");
+
 
 travelStory.innerHTML += `<p>${data[0].story}</p>`;
 
@@ -722,4 +725,29 @@ data.forEach(
         : "";
 });
 
-    
+data.forEach(
+    ({day, date, blog}) => {
+        day ? 
+        travelBlogList.innerHTML += `
+        <li id="blog-day${day}" class="blog-post"><span class="bold"> Day ${day}: ${date}</span><br> ${blog}</li>
+        `
+        : "";
+});
+
+data.forEach(
+    ({day}) => {
+        day ? 
+        galleryDropdown.innerHTML += `
+        <a href="#day${day}">Day ${day}</a>
+        `
+        : "";
+});
+
+data.forEach(
+    ({day}) => {
+        day ? 
+        blogDropdown.innerHTML += `
+        <a href="#day${day}">Day ${day}</a>
+        `
+        : "";
+});
