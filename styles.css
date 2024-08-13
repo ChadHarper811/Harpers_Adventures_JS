@@ -317,11 +317,11 @@ footer a:hover .hover{
         scroll-padding-top: 50px;
      }
      .dropdown-content a {
-        font-size: 11px;
+        font-size: 12px;
         padding: 1.5px 14px;
     }
     li a, .dropbtn {
-        font-size: 14px;
+        font-size: 16px;
         padding: 12px 10px;
     }
 }
