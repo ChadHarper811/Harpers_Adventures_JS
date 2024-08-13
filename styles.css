@@ -311,10 +311,10 @@ footer a:hover .hover{
         width: 100%;
     }
     #travel-story {
-        margin-top: 160px;
+        margin-top: 120px;
     }
      html {
-        scroll-padding-top: 120px;
+        scroll-padding-top: 100px;
      }
      .dropdown-content a {
         font-size: 11px;
