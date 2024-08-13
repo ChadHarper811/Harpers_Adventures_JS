@@ -258,11 +258,6 @@ footer p {
     font-size: 20px;
 }
 
-#contact-links {
-    margin:20px;
-    text-decoration: none;
-}
-
 footer a:link {
     font-size: 25px;
     margin: 20px 15px;
@@ -310,18 +305,27 @@ footer a:hover .hover{
     #modalImg {
         width: 100%;
     }
+
     #travel-story {
         margin-top: 140px;
     }
+
      html {
         scroll-padding-top: 130px;
-     }
+    }
+
      .dropdown-content a {
         font-size: 12px;
         padding: 1.5px 14px;
     }
+
     li a, .dropbtn {
         font-size: 16px;
         padding: 12px 10px;
+    }
+
+    footer a:link {
+        font-size: 20px;
+        margin: auto;
     }
 }
