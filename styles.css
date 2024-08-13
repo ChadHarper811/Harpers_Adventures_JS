@@ -306,15 +306,15 @@ footer a:hover .hover{
     }
 } */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 750px) {
     #modalImg {
         width: 100%;
     }
     #travel-story {
-        margin-top: 60px;
+        margin-top: 140px;
     }
      html {
-        scroll-padding-top: 50px;
+        scroll-padding-top: 130px;
      }
      .dropdown-content a {
         font-size: 12px;
