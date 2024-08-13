@@ -735,7 +735,7 @@ travelStory.innerHTML += `<p>${data[0].story}</p>`;
 data.filter(el => el.day).forEach(
     ({day, imgData}) => {
         gallery.innerHTML += `
-            <div class="gallery-day-container" id="day${day}">${day}
+            <div class="gallery-day-container" id="day${day}">
             ${imgData.map((e) => {
                 return `
                 <div class="img-container">
@@ -776,3 +776,4 @@ data.filter(el => el.link).forEach(
         <a href="${link}" class="contact-details"> <span class="hover">&lt;</span> <i class="${icon}"></i>${text}<span class="hover">&#47;&gt;</span> </a>
         `
 });
+
