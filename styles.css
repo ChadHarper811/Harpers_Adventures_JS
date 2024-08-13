@@ -314,7 +314,7 @@ footer a:hover .hover{
         margin-top: 160px;
     }
      html {
-        scroll-padding-top: 140px;
+        scroll-padding-top: 120px;
      }
      .dropdown-content a {
         font-size: 11px;
