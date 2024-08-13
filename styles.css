@@ -289,7 +289,7 @@ footer a:hover .hover{
     text-shadow: 3px 3px 2px var(--light_gray);
 }
 
-@media screen and (max-width: 575px) {
+/* @media screen and (mmin-width: 390px) {
     #travel-story {
         margin-top: 160px;
     }
@@ -304,10 +304,24 @@ footer a:hover .hover{
         font-size: 14px;
         padding: 12px 10px;
     }
-}
+} */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
     #modalImg {
         width: 100%;
+    }
+    #travel-story {
+        margin-top: 160px;
+    }
+     html {
+        scroll-padding-top: 140px;
+     }
+     .dropdown-content a {
+        font-size: 11px;
+        padding: 1.5px 14px;
+    }
+    li a, .dropbtn {
+        font-size: 14px;
+        padding: 12px 10px;
     }
 }
