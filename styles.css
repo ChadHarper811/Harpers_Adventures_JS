@@ -226,7 +226,7 @@ li.dropdown {
     to {transform: scale(1)}
 }
 
-.close {
+#close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -236,7 +236,7 @@ li.dropdown {
     transition: 0.3s;
 }
 
-.close:hover, .close:focus {
+#close:hover, #close:focus {
     color: var(--orange);
     text-decoration: none;
     cursor: pointer;

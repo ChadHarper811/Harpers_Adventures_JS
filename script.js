@@ -758,7 +758,7 @@ data.filter(el => el.day).forEach(
 data.filter(el => el.day).forEach(
     ({day}) => {
         galleryDropdown.innerHTML += `
-        <a href="#day${day}">Day ${day}</a>
+        <a href="#${day}">Day ${day}</a>
         `
 });
 
@@ -777,7 +777,8 @@ data.filter(el => el.link).forEach(
 });
 
 // Modal code block
-const modal = document.getElementById("modal")
+const modal = document.getElementById("modal");
+const closeBtn = document.getElementById("close");
 const modalImg = document.getElementById("modalImg");
 const modalInfo = document.getElementById("modalInfo");
 const allImages = document.getElementsByClassName("travel-images");
@@ -795,3 +796,9 @@ const allImages = document.getElementsByClassName("travel-images");
         })
     }
 )
+
+closeBtn.addEventListener("click", (event) => {
+    modal.style.display = "none";
+    modalImg.src = "";
+    modalInfo.innerHTML = "";
+})
