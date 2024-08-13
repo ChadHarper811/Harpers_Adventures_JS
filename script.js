@@ -735,17 +735,14 @@ data.filter(el => el.day).forEach(
     ({day, imgData}) => {
         gallery.innerHTML += `
             <div class="gallery-day-container" id="${day}">
-            ${imgData.map((e) => {
-                return `
+            ${imgData.map((e) => `
                 <div class="img-container">
                     <img class="travel-images" src="${e.src}" alt="${e.caption}" /><br>
                     <span class="bold"><span class="hover">&lt;</span> Day ${day} ${imgData.length > 1 ? `#${e.image}` : ""}<span class="hover">&#47;&gt;</span></span><br>
                     ${e.caption}
-                </div>
-                ` 
-            })}
-            </div>
-        ` 
+                </div>`
+            ).join("")}
+            </div>` 
 });
 
 data.filter(el => el.day).forEach(

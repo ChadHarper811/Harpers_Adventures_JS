@@ -7,14 +7,6 @@
     --off_white: #d6d6d6;
 }
 
-#mainHeading {
-  color:red;
-}
-
-.funParagraph {
-  color:green;
-}
-
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 92px;
@@ -90,7 +82,8 @@ li.dropdown {
 }
   
 .dropdown-content a {
-    color: black;
+    background-color: var(--blue);
+    color: var(--off_white);
     padding: 1.5px 16px;
     text-decoration: none;
     display: block;
@@ -98,7 +91,8 @@ li.dropdown {
 }
   
 .dropdown-content a:hover {
-    background-color: #dbdbdb;
+    color: var(--blue);
+    background-color: var(--off_white);
 }
   
 .dropdown:hover .dropdown-content {
@@ -112,6 +106,11 @@ li.dropdown {
     border-radius: 10px;
     padding: 10px;
 }
+
+#gallery-info {
+ margin-top: 50px;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -242,11 +241,7 @@ li.dropdown {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
-    #modalImg {
-        width: 100%;
-    }
-}
+
 
 footer {
     background-color: var(--orange);
@@ -292,4 +287,19 @@ footer a:hover {
 footer a:hover .hover{
     color: var(--blue);
     text-shadow: 3px 3px 2px var(--light_gray);
+}
+
+@media screen and (max-width: 575px) {
+    #travel-story {
+        margin-top: 160px;
+    }
+     html {
+        scroll-padding-top: 140px;
+     }
+}
+
+@media only screen and (max-width: 700px) {
+    #modalImg {
+        width: 100%;
+    }
 }
