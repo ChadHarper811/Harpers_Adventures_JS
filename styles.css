@@ -306,7 +306,7 @@ footer a:hover .hover{
     }
 } */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 480px) {
     #modalImg {
         width: 100%;
     }
