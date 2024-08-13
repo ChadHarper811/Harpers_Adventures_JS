@@ -284,23 +284,6 @@ footer a:hover .hover{
     text-shadow: 3px 3px 2px var(--light_gray);
 }
 
-/* @media screen and (mmin-width: 390px) {
-    #travel-story {
-        margin-top: 160px;
-    }
-     html {
-        scroll-padding-top: 140px;
-     }
-     .dropdown-content a {
-        font-size: 11px;
-        padding: 1.5px 14px;
-    }
-    li a, .dropbtn {
-        font-size: 14px;
-        padding: 12px 10px;
-    }
-} */
-
 @media only screen and (max-width: 750px) {
     #modalImg {
         width: 100%;
