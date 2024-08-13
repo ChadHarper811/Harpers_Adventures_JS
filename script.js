@@ -729,7 +729,6 @@ const galleryDropdown = document.getElementById("gallery-dropdown");
 const blogDropdown = document.getElementById("blog-dropdown");
 const contactLinks = document.getElementById("contact-links");
 
-
 travelStory.innerHTML += `<p>${data[0].story}</p>`;
 
 data.filter(el => el.day).forEach(
@@ -739,7 +738,7 @@ data.filter(el => el.day).forEach(
             ${imgData.map((e) => {
                 return `
                 <div class="img-container">
-                    <img class="travel-images" src="${e.src}" alt="${e.caption}"/><br>
+                    <img class="travel-images" src="${e.src}" alt="${e.caption}" /><br>
                     <span class="bold"><span class="hover">&lt;</span> Day ${day} ${imgData.length > 1 ? `#${e.image}` : ""}<span class="hover">&#47;&gt;</span></span><br>
                     ${e.caption}
                 </div>
@@ -777,3 +776,22 @@ data.filter(el => el.link).forEach(
         `
 });
 
+// Modal code block
+const modal = document.getElementById("modal")
+const modalImg = document.getElementById("modalImg");
+const modalInfo = document.getElementById("modalInfo");
+const allImages = document.getElementsByClassName("travel-images");
+
+[...allImages].forEach(
+    (img) => {
+        img.addEventListener("click", (event) => {
+            const target = event.target.src
+            modal.style.display = "block";
+            modalImg.src = event.target.src;
+            
+            modalInfo.innerHTML = `
+            <h3>Day </h3>
+            `
+        })
+    }
+)
