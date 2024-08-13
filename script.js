@@ -734,7 +734,7 @@ travelStory.innerHTML += `<p>${data[0].story}</p>`;
 data.filter(el => el.day).forEach(
     ({day, imgData}) => {
         gallery.innerHTML += `
-            <div class="gallery-day-container" id="day${day}">
+            <div class="gallery-day-container" id="${day}">
             ${imgData.map((e) => {
                 return `
                 <div class="img-container">
@@ -785,12 +785,12 @@ const allImages = document.getElementsByClassName("travel-images");
 [...allImages].forEach(
     (img) => {
         img.addEventListener("click", (event) => {
-            const target = event.target.src
+            const imgInfo = data.filter(days => days.day === Number(event.target.parentNode.parentNode.id));
             modal.style.display = "block";
             modalImg.src = event.target.src;
-            
             modalInfo.innerHTML = `
-            <h3>Day </h3>
+            <h3>Day ${imgInfo[0].day}: ${imgInfo[0].date}</h3>
+            <p>${imgInfo[0].blog}</p>
             `
         })
     }
