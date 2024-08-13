@@ -296,6 +296,14 @@ footer a:hover .hover{
      html {
         scroll-padding-top: 140px;
      }
+     .dropdown-content a {
+        font-size: 12px;
+        padding: 1.5px 16px;
+    }
+    li a, .dropbtn {
+        font-size: 14px;
+        padding: 12px 14px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
