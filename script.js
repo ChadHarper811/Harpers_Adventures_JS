@@ -789,7 +789,7 @@ const allImages = document.getElementsByClassName("travel-images");
             modal.style.display = "block";
             modalImg.src = event.target.src;
             modalInfo.innerHTML = `
-            <h3>Day ${imgInfo[0].day}: ${imgInfo[0].date}</h3>
+            <p><span class="bold">Day ${imgInfo[0].day}: ${imgInfo[0].date}</span></p>
             <p>${imgInfo[0].blog}</p>
             `
         })

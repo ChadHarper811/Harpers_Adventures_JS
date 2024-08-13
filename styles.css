@@ -207,9 +207,9 @@ li.dropdown {
 }
 
 #modalInfo {
-    margin: auto;
+    margin: 10px auto 0 auto;
     display: block;
-    width: 80%;
+    width: 90%;
     max-width: 1000px;
     text-align: center;
     color: var(--off_white);
