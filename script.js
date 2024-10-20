@@ -769,7 +769,9 @@ data.filter(el => el.day).forEach(
 data.filter(el => el.link).forEach(
     ({link, icon, text}) => {
         contactLinks.innerHTML += `
-        <a href="${link}" class="contact-details"> <span class="hover">&lt;</span> <i class="${icon}"></i>${text}<span class="hover">&#47;&gt;</span> </a>
+        <div class="links">
+            <a href="${link}" class="contact-details"> <span class="hover">&lt;</span> <i class="${icon}"></i>${text}<span class="hover">&#47;&gt;</span> </a>
+        </div>
         `
 });
 
