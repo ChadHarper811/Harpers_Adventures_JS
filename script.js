@@ -696,29 +696,29 @@ const data = [
         ]
     },
     {
-        link: "https://chadharper811.github.io/Resume/",
-        icon: "fa-solid fa-file",
-        text: "Resume Site "
-    },
-    {
+        text: "email",
+        icon: "fa-regular fa-envelope",
         link: "mailto: chadharper811@gmail.com",
-        icon: "fa-solid fa-envelope",
-        text: "Email me "
     },
     {
-        link: "tel:913-961-8439",
+        text: "phone",
         icon: "fa-solid fa-mobile-screen",
-        text: "Call me "
+        link: "tel:913-961-8439",
     },
     {
-        link: "https://www.linkedin.com/in/chadharper811/",
+        text: "linkedIn",
         icon: "fa-brands fa-linkedin",
-        text: "LinkedIn "
+        link: "https://www.linkedin.com/in/chadharper811/",
     },
     {
-        link: "https://github.com/ChadHarper811",
+        text: "gitHub",
         icon: "fa-brands fa-square-github",
-        text: "GitHub "
+        link: "https://github.com/ChadHarper811",
+    },
+    {
+        text: "resumeSite",
+        icon: "fa-solid fa-file",
+        link: "https://chadharper811.github.io/Updated-Resume/",
     },
 ]
 
@@ -769,8 +769,10 @@ data.filter(el => el.day).forEach(
 data.filter(el => el.link).forEach(
     ({link, icon, text}) => {
         contactLinks.innerHTML += `
-        <div class="links">
-            <a href="${link}" class="contact-details"> <span class="hover">&lt;</span> <i class="${icon}"></i>${text}<span class="hover">&#47;&gt;</span> </a>
+        <div id="${text}-link" class="contacts">
+            <a href="${link}" class="contact-details">
+                 <i id="${text}-icon" class="${icon}"></i>${text}
+            </a>
         </div>
         `
 });
@@ -785,7 +787,9 @@ const allImages = document.getElementsByClassName("travel-images");
 [...allImages].forEach(
     (img) => {
         img.addEventListener("click", (event) => {
+            document.body.classList.add("stop-scrolling");
             const imgInfo = data.filter(days => days.day === Number(event.target.parentNode.parentNode.id));
+            
             modal.style.display = "block";
             modalImg.src = event.target.src;
             modalInfo.innerHTML = `
@@ -797,6 +801,7 @@ const allImages = document.getElementsByClassName("travel-images");
 )
 
 closeBtn.addEventListener("click", (event) => {
+    document.body.classList.remove("stop-scrolling");
     modal.style.display = "none";
     modalImg.src = "";
     modalInfo.innerHTML = "";

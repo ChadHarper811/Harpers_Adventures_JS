@@ -5,6 +5,16 @@
     --orange: #c96700;
     --white: #f0f0f0;
     --off_white: #d6d6d6;
+    --email-icon: #d1d1d1;
+    --email:#9b9b9b;
+    --phone-icon: #006680;
+    --phone: #00485a;
+    --linkedIn-icon: #0a66c2;
+    --linkedIn: #0a4785;
+    --github-icon: #696969;
+    --github: #3a3e43;
+    --resume-icon: #c96700;
+    --resume: #864500;
 }
 
 html {
@@ -23,6 +33,11 @@ body {
     background-image: url("travel_pictures/background.jpg");
     background-size: contain;
     background-blend-mode: darken;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow-y: hidden;
 }
 
 header {
@@ -242,7 +257,7 @@ li.dropdown {
 }
 
 footer {
-    background-color: var(--orange);
+    background-color: var(--blue);
     color: var(--white);
     position: absolute;
     left: 0;
@@ -252,40 +267,66 @@ footer {
     
 }
 
-.links {
-    display:inline-block;
-}
-  
-footer p {
-    margin: 10px;
-    font-size: 20px;
+.contacts {
+    position: relative;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0 6px;
+    border-radius: 3px;
 }
 
-footer a:link {
-    font-size: 25px;
+a:link, a:visited {
     color: var(--white);
     text-decoration: none;
-
 }
 
-footer a:visited {
-    color:var(--white);
+#email-icon, #phone-icon, #linkedIn-icon, #gitHub-icon, #resumeSite-icon {
+    padding-right: 10px;
 }
 
-footer .hover {
-    color: rgb(240, 240, 240, 0);
-    text-shadow: none;
-    
+#email-link:hover, #phone-link:hover, #linkedIn-link:hover, #gitHub-link:hover, #resumeSite-link:hover {
+    background-position: left;
+    transition: all 1s ease;
 }
 
-footer a:hover {
-    text-shadow: 3px 3px 2px var(--light_gray);
-    transition: 0.5s ease-out;
+#email-link > a:link, #email-link > a:visited {
+    color: black;
 }
 
-footer a:hover .hover{
-    color: var(--blue);
-    text-shadow: 3px 3px 2px var(--light_gray);
+#email-link {
+    color: black;
+    background: linear-gradient(to left, var(--email) 50%, var(--email-icon) 50%);
+    background-size: 200% 100%;
+    background-position: 66% 0%;
+}
+
+#phone-link {
+    background: linear-gradient(to left, var(--phone) 50%, var(--phone-icon) 50%);
+    background-size: 200% 100%;
+    background-position: 72% 0%;
+}
+
+#linkedIn-link {
+    background: linear-gradient(to left, var(--linkedIn) 50%, var(--linkedIn-icon) 50%);
+    background-size: 200% 100%;
+    background-position: 76% 0%;
+}
+
+#gitHub-link {
+    background: linear-gradient(to left, var(--github) 50%, var(--github-icon) 50%);
+    background-size: 200% 100%;
+    background-position: 72% 0%;
+}
+
+#resumeSite-link {
+    background: linear-gradient(to left, var(--resume) 50%, var(--resume-icon) 50%);
+    background-size: 200% 100%;
+    background-position: 83% 0%;
 }
 
 @media only screen and (max-width: 750px) {
